@@ -13,6 +13,10 @@ import java.io.IOException;
 @Component
 public class JwtFilter extends OncePerRequestFilter {
 
+    // SECRET KEY
+    private final String SECRET =
+            "mysecretkeymysecretkeymysecretkey";
+
     @Autowired
     private JwtUtil jwtUtil;
 
