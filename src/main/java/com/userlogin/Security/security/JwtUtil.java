@@ -8,9 +8,10 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    //token generate
-    //token validate
-    //username extract
+   // Token Generate
+//Username Extract
+// Validate Token
+// Expiry Check
     private final String SECRET = "mysecretkeymysecretkeymysecretkey";
 
     public String generateToken(String username) {
